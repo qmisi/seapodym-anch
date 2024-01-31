@@ -4,15 +4,21 @@
 <!--SIMULATION PARAMETERS-->
 <!--==================== -->
   # Il faut mettre +-1/2 graduation de chaque côté ? Parce que sur le skj à une résolution de 2deg et +- 0.5deg de chaque côté donc +- 1/4 * 2deg
+  # oui c est bien +/- 1/2. Si on a la meme version pour le skipjack, le mask va de 64.5 a -53.5 avec une reso de 2deg et les valeurs declarees sont 65.5 a -54.5   
+  # donc ici domaine = 53N - 40N ;  350 - 0  avec une resolution en decimale de 1/12 =0.0833333 ; et donc 157 cellules en latitude  x 121 en longitude
+  # Les premieres cellules du masque et des champs de forcages sont donc centrees sur les valeurs 53.000 N  et 350 E au point nord-ouest du domaine  
 <latitudeMin value="39.9583333333333"/> 
 <latitudeMax value="53.041666666666666664"/>
 <longitudeMin value="349.9583333333333"/>
 <longitudeMax value="0.041666666666666664"/>
-  # Je peux mettre 1 pour le nombre de layer ? 
-<nb_layer value="1"/>
+  # Je peux mettre 1 pour le nombre de layer ?
+  # Non on garde les 3 couches et les 6 groupes de micronekton pour avoir l effet predateur. Mais on met le zooplankton dans le fichier upper meso qui ne migre pas 
+<nb_layer value="3"/>
   # 60 nm = 1deg c'est bien ça ?
+  # OK Resolution au 12eme de degre soit 5 milles nautiques
 <deltaX value="5"/>
 <deltaY value="5"/>
+  # resolution temporelle 7 jours
 <deltaT value="7"/>
 <iterationNumber value="15"/>
 <save_first_date year="2010" month="1" day="10"/>
@@ -208,7 +214,7 @@
 <age_compute_habitat>
   <anc>0  1  2  3  4  5  6  7  8  9 10 11 12 12 13 13 14 14 15 15 16 16 17 17 17 18 18 18 19 19 19 19 20 20 20 20 21 </anc>
 </age_compute_habitat>
-#Pas lissé je suppose que ça pose problème
+
 <length>
     <anc> 2.0 4.0 6.44 7.15 7.82 8.468 9.083 9.671 10.231 10.765 11.276 11.765 12.228 13.096 13.501 13.886 14.255 14.607 14.943 14.8 15.264 15.570 15.862 15.862 16.140 16.407 16.66 16.904 17.135 17.356 17.567 17.768 17.961 18.144 18.319 18.486 21.0 </anc>
 </length>
