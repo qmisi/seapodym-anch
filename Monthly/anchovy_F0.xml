@@ -21,8 +21,8 @@
   # resolution temporelle 30 jours
 <deltaT value="30"/>
 <iterationNumber value="15"/>
-<save_first_date year="2010" month="1" day="10"/>
-<save_last_date year="2020" month="12" day="27"/>
+<save_first_date year="2010" month="1" day="16"/>
+<save_last_date year="2020" month="12" day="16"/>
   # Pas encore défini
   # on met a zero tant qu on est pas au stade de l' 'optimisation
 <nb_step_to_skip value="0"/>
@@ -249,22 +249,23 @@
 <!--= end of Available OPTIONS ==-->
 
 <!--===  2. Spawning habitat parameters  =======-->
-<a_sst_larvae anc="1.492626509052383">
-        <variable min="0.5" max="2.5" use="true"/>
+<a_sst_larvae anc="1.0">
+        <variable min="0.5" max="1.5" use="true"/>
 </a_sst_larvae>
 
-<b_sst_larvae anc="28.50028833256241"> 
-        <variable min="28.5" max="30.5" use="true"/>
+<b_sst_larvae anc="16.5"> 
+        <variable min="16.0" max="17.0" use="true"/>
 </b_sst_larvae>
 
-<a_sst_spawning anc="1.492626509052383">
-        <variable min="0.5" max="2.5" use="true"/>
+<a_sst_spawning anc="1.0">
+        <variable min="0.5" max="2.0" use="true"/>
 </a_sst_spawning>
 
-<b_sst_spawning anc="31.09996321152416">
-        <variable min="28.0" max="31.1" use="true"/>
+<b_sst_spawning anc="16.5">
+        <variable min="15.5" max="17.5" use="true"/>
 </b_sst_spawning>
 
+# Aucune idée de comment déduire ce parametre
 <alpha_hsp_prey anc="0.000569603615390879">
         <variable min="0.0" max="1.0" use="true"/>
 </alpha_hsp_prey>
