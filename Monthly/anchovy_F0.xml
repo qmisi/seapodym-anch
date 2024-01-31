@@ -112,6 +112,7 @@
 <!--Micronekton Files Sub-folder in Forcing Directory-->
 <strdir_forage value="forage/"/>
 <!--Initial Conditions Files Sub-folder in Forcing Directory-->
+# il faudra prepaer un fichier avec les conditions initiales
 <strdir_init value="init/ic1979/anc/CLT-CJFAS/"/>
 
 <!--Forcing variables and file names-->
@@ -124,7 +125,7 @@
 
 <!--type of oxygen data: 0 for time series, 1 - for monthly, 2 for seasonal-->
 <type_oxy value="0"/>
-<strfile_oxy layer0="cmems_glo_O.O83x7d_O2_L1_1979_2010.dym" layer1="cmems_glo_O.O83x30d_2x7d_O2_L2_1979_2010.dym" layer2="cmems_glo_O.O83x7d_O2_L3_1979_2010.dym"/>
+<strfile_oxy layer0="cmems_glo_O.O83x30d_O2_L1_1979_2010.dym" layer1="cmems_glo_O.O83x30d_2x7d_O2_L2_1979_2010.dym" layer2="cmems_glo_O.O83x30d_O2_L3_1979_2010.dym"/>
 
 <!--Fisheries Data Directory-->
 <strdir_fisheries value="/home/qmisi/Modelisation/data/fisheries/anc/ds2013/"/>
@@ -204,7 +205,7 @@
         <anc>2 4 6 25</anc>
 </nb_cohort_life_stage>
 
-	# c'est un age en année ??
+# c'est un age en année ??
 <age_recruit anc="3"/>
 <age_mature anc="11"/>
 
@@ -212,6 +213,7 @@
     <anc> 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 360</anc>
 </sp_unit_cohort>
 
+ # je n'ai pas compris la signification
 <age_compute_habitat>
   <anc>0  1  2  3  4  5  6  7  8  9 10 11 12 12 13 13 14 14 15 15 16 16 17 17 17 18 18 18 19 19 19 19 20 20 20 20 21 </anc>
 </age_compute_habitat>
