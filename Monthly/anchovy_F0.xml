@@ -265,7 +265,7 @@
         <variable min="15.5" max="17.5" use="true"/>
 </b_sst_spawning>
 
-# Aucune idée de comment déduire ce parametre
+# Aucune idée de comment déduire ces parametres
 <alpha_hsp_prey anc="0.000569603615390879">
         <variable min="0.0" max="1.0" use="true"/>
 </alpha_hsp_prey>
@@ -274,7 +274,7 @@
         <variable min="0.0" max="2.5" use="true"/>
 </alpha_hsp_predator>
 
-<beta_hsp_predator anc="1.534250459427564">
+<beta_hsp_predator anc="0.5">
 	<variable min="0.0" max="3.0" use="true"/>
 </beta_hsp_predator>
 <!--=== end of Spawning habitat parameters =====-->
@@ -306,12 +306,12 @@
 <!--=== end of Adult seasonal migrations =======-->
 
 <!--=== 6. Adult feeding habitat ===============-->
-<a_sst_habitat anc="3.000002576905231">
-        <variable min="3.0" max="6.5" use="true"/>
+<a_sst_habitat anc="0.5">
+        <variable min="0.4" max="1.5" use="true"/>
 </a_sst_habitat>
 
-<b_sst_habitat anc="26.04960048814059">
-        <variable min="18.0" max="26.05" use="true"/>
+<b_sst_habitat anc="12.325">
+        <variable min="11.5" max="13.0" use="true"/>
 </b_sst_habitat>
 
 <T_age_size_slope anc="2.83057972721579">
