@@ -274,7 +274,7 @@
         <variable min="0.0" max="2.5" use="true"/>
 </alpha_hsp_predator>
 
-<beta_hsp_predator anc="0.5">
+<beta_hsp_predator anc="1.534250459427564">
 	<variable min="0.0" max="3.0" use="true"/>
 </beta_hsp_predator>
 <!--=== end of Spawning habitat parameters =====-->
@@ -314,8 +314,8 @@
         <variable min="11.5" max="13.0" use="true"/>
 </b_sst_habitat>
 
-<T_age_size_slope anc="2.83057972721579">
-        <variable min="0.5" max="3.0" use="true"/>
+<T_age_size_slope anc="0.5">
+        <variable min="0.0" max="3.0" use="true"/>
 </T_age_size_slope>
 
 <thermal_func>
