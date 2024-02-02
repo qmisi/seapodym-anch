@@ -265,7 +265,7 @@
         <variable min="16.0" max="17.0" use="true"/>
 </b_sst_spawning>
 
-# Aucune idée de comment déduire ces parametres
+# comment déduire ces parametres
 <alpha_hsp_prey anc="0.000569603615390879">
         <variable min="0.0" max="1.0" use="true"/>
 </alpha_hsp_prey>
