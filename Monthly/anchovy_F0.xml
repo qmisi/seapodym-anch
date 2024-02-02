@@ -180,7 +180,7 @@
 
 <frg_name>epi meso mmeso bathy mbathy hmbathy</frg_name>
 
-<source_frg epi="0.08" meso="0.17" mmeso="0.08" bathy="0.56" mbathy="0.07" hmbathy="0.04"/>
+<source_frg epi="0.0" meso="1.0" mmeso="0.0" bathy="0.0" mbathy="0.0" hmbathy="0.0"/>
 <day_layer epi="0" meso="1" mmeso="1" bathy="2" mbathy="2" hmbathy="2"/>
 <night_layer epi="0" meso="1" mmeso="0" bathy="2" mbathy="1" hmbathy="0"/>
 
@@ -250,19 +250,19 @@
 
 <!--===  2. Spawning habitat parameters  =======-->
 <a_sst_larvae anc="1.0">
-        <variable min="0.5" max="1.5" use="true"/>
+        <variable min="0.5" max="2.0" use="true"/>
 </a_sst_larvae>
 
 <b_sst_larvae anc="16.5"> 
-        <variable min="16.0" max="17.0" use="true"/>
+        <variable min="15.5" max="17.5" use="true"/>
 </b_sst_larvae>
 
 <a_sst_spawning anc="1.0">
-        <variable min="0.5" max="2.0" use="true"/>
+        <variable min="0.5" max="1.5" use="true"/>
 </a_sst_spawning>
 
 <b_sst_spawning anc="16.5">
-        <variable min="15.5" max="17.5" use="true"/>
+        <variable min="16.0" max="17.0" use="true"/>
 </b_sst_spawning>
 
 # Aucune idée de comment déduire ces parametres
