@@ -119,13 +119,13 @@
 <strfile_pp value="cmems_glo_O.O83x30d_pp_2010_2020.dym"/>
 <strfile_sst value="cmems_glo_O.O83x30d_sst_2010_2020.dym"/>
 <strfile_vld value="cmems_glo_O.O83x30d_zeu_2010_2020.dym"/>
-<strfile_u layer0="cmems_glo_O.O83x30d_u_L1_1979_2010.dym" layer1="cmems_glo_O.O83x30d_u_L2_1979_2010.dym" layer2="cmems_glo_O.O83x30d_u_L3_1979_2010.dym"/>
-<strfile_v layer0="cmems_glo_O.O83x30d_v_L1_1979_2010.dym" layer1="cmems_glo_O.O83x30d_v_L2_1979_2010.dym" layer2="cmems_glo_O.O83x30d_v_L3_1979_2010.dym"/>
-<strfile_t layer0="cmems_glo_O.O83x30d_temperature_L1_1979_2010.dym" layer1="cmems_glo_O.O83x30d_temperature_L2_1979_2010.dym" layer2="cmems_glo_O.O83x30d_temperature_L3_1979_2010.dym"/>
+<strfile_u layer0="cmems_glo_O.O83x30d_u_L1_2010_2020.dym" layer1="cmems_glo_O.O83x30d_u_L2_2010_2020.dym" layer2="cmems_glo_O.O83x30d_u_L3_2010_2020.dym"/>
+<strfile_v layer0="cmems_glo_O.O83x30d_v_L1_2010_2020.dym" layer1="cmems_glo_O.O83x30d_v_L2_2010_2020.dym" layer2="cmems_glo_O.O83x30d_v_L3_2010_2020.dym"/>
+<strfile_t layer0="cmems_glo_O.O83x30d_temperature_L1_2010_2020.dym" layer1="cmems_glo_O.O83x30d_temperature_L2_2010_2020.dym" layer2="cmems_glo_O.O83x30d_temperature_L3_2010_2020.dym"/>
 
 <!--type of oxygen data: 0 for time series, 1 - for monthly, 2 for seasonal-->
 <type_oxy value="0"/>
-<strfile_oxy layer0="cmems_glo_O.O83x30d_O2_L1_1979_2010.dym" layer1="cmems_glo_O.O83x30d_2x7d_O2_L2_1979_2010.dym" layer2="cmems_glo_O.O83x30d_O2_L3_1979_2010.dym"/>
+<strfile_oxy layer0="cmems_glo_O.O83x30d_O2_L1_2010_2020.dym" layer1="cmems_glo_O.O83x30d_2x7d_O2_L2_2010_2020.dym" layer2="cmems_glo_O.O83x30d_O2_L3_2010_2020.dym"/>
 
 <!--Fisheries Data Directory-->
 <strdir_fisheries value="/home/qmisi/Modelisation/data/fisheries/anc/ds2013/"/>
