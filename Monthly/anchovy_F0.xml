@@ -124,7 +124,7 @@
 <strfile_t layer0="cmems_glo_O.O83x30d_temperature_L1_2010_2020.dym" layer1="cmems_glo_O.O83x30d_temperature_L2_2010_2020.dym" layer2="cmems_glo_O.O83x30d_temperature_L3_2010_2020.dym"/>
 
 <!--type of oxygen data: 0 for time series, 1 - for monthly, 2 for seasonal-->
-<type_oxy value="0"/>
+<type_oxy value="1"/>
 <strfile_oxy layer0="cmems_glo_O.O83x30d_O2_L1_2010_2020.dym" layer1="cmems_glo_O.O83x30d_2x7d_O2_L2_2010_2020.dym" layer2="cmems_glo_O.O83x30d_O2_L3_2010_2020.dym"/>
 
 <!--Fisheries Data Directory-->
@@ -132,12 +132,12 @@
 
 <!--Fisheries Data Files-->
 <file_catch_data>
-       <nb_files anc="1"/>  <anc file1="anc_catch_17f_PO_config2.txt"/>
+       <nb_files anc="0"/>  <anc file1="anc_catch_17f_PO_config2.txt"/>
 
 </file_catch_data>
 
 <file_frq_data>
-<nb_files anc="2"/>  <anc file1="anc_LF_11f_WCPO_L8mod.txt" file2="anc_LF_5f_PS_EPO_filtered.txt"/>
+<nb_files anc="0"/>  <anc file1="anc_LF_11f_WCPO_L8mod.txt" file2="anc_LF_5f_PS_EPO_filtered.txt"/>
 </file_frq_data>
 
   
@@ -146,7 +146,7 @@
 <strdir_tags value="/homelocal-px/px-149/sauvegarde/qmisi/tagging/anc/ds2016/"/>
 
 <!--Tagging data usage: smoothing and grid-->
-<tag_gauss_kernel_on value="1"/>
+<tag_gauss_kernel_on value="0"/>
 <tags_grid>
         <reso dx="6" dy="6"/>
         <longitude east="110" west="280"/>
@@ -155,7 +155,7 @@
 
 <!--Tagging data files-->
 <file_tag_data>
-        <nb_files anc="22"/>
+        <nb_files anc="0"/>
         <anc file1="anc-pop-tags_20090115.txt" file2="anc-pop-tags_20090215.txt" file3="anc-pop-tags_20090315.txt" file4="anc-pop-tags_20090415.txt" file5="anc-pop-tags_20090515.txt" file6="anc-pop-tags_20090615.txt" file7="anc-pop-tags_20090815.txt" file8="anc-pop-tags_20091015.txt" file9="anc-pop-tags_20091115.txt" file10="anc-pop-tags_20091215.txt" file11="anc-pop-tags_20100115.txt" file12="anc-pop-tags_20100215.txt" file13="anc-pop-tags_20100315.txt" file14="anc-pop-tags_20100415.txt" file15="anc-pop-tags_20100515.txt" file16="anc-pop-tags_20100615.txt" file17="anc-pop-tags_20100715.txt" file18="anc-pop-tags_20100815.txt" file19="anc-pop-tags_20100915.txt" file20="anc-pop-tags_20101015.txt" file21="anc-pop-tags_20101115.txt" file22="anc-pop-tags_20101215.txt"/>
 </file_tag_data>
 
@@ -180,7 +180,7 @@
 
 <frg_name>epi meso mmeso bathy mbathy hmbathy</frg_name>
 
-<source_frg epi="0.0" meso="1.0" mmeso="0.0" bathy="0.0" mbathy="0.0" hmbathy="0.0"/>
+<source_frg epi="0.08" meso="0.17" mmeso="0.08" bathy="0.56" mbathy="0.07" hmbathy="0.04"/>
 <day_layer epi="0" meso="1" mmeso="1" bathy="2" mbathy="2" hmbathy="2"/>
 <night_layer epi="0" meso="1" mmeso="0" bathy="2" mbathy="1" hmbathy="0"/>
 
@@ -266,26 +266,26 @@
 </b_sst_spawning>
 
 # comment déduire ces parametres
-<alpha_hsp_prey anc="0.000569603615390879">
-        <variable min="0.0" max="1.0" use="true"/>
+<alpha_hsp_prey anc="3.5">
+        <variable min="0.0" max="5.0" use="true"/>
 </alpha_hsp_prey>
 
 <alpha_hsp_predator anc="2.30637293118113">
         <variable min="0.0" max="2.5" use="true"/>
 </alpha_hsp_predator>
 
-<beta_hsp_predator anc="1.534250459427564">
+<beta_hsp_predator anc="3.534250459427564">
 	<variable min="0.0" max="3.0" use="true"/>
 </beta_hsp_predator>
 <!--=== end of Spawning habitat parameters =====-->
 
 <!--===  3. Recruitment function   =============-->
-<nb_recruitment anc="0.03872619045606616">
+<nb_recruitment anc="0.04">
 	<variable min="0.005" max="0.25" use="true"/>
 </nb_recruitment>
 
-<a_adults_spawning anc="0.1605221815904466">
-	<variable min="0.005" max="0.5" use="true"/>
+<a_adults_spawning anc="2.5">
+	<variable min="0.005" max="3.5" use="true"/>
 </a_adults_spawning>
 <!--=== end of Recruitment function  ===========-->
 
@@ -341,15 +341,15 @@
         </b_oxy_habitat>
 
 <eF_habitat>
-    <epi anc="3.999907116416026">
+    <epi anc="0.0">
         <variable min="0.0" max="4.0" use="true"/>
     </epi>
 
-    <meso anc="0.05">
+    <meso anc="1.00">
         <variable min="0.0" max="4.0" use="false"/>
     </meso>
 
-    <mmeso anc="0.897307278945509">
+    <mmeso anc="0.0">
         <variable min="0.0" max="2.0" use="true"/>
     </mmeso>
 
@@ -361,7 +361,7 @@
         <variable min="0.0" max="1.0" use="false"/>
     </mbathy>
 
-    <hmbathy anc="3.999946416753347">
+    <hmbathy anc="0.0">
         <variable min="0.0" max="4.0" use="true"/>
     </hmbathy>
 </eF_habitat>
