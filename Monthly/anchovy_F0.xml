@@ -202,7 +202,7 @@
 </life_stage>
 
 <nb_cohort_life_stage>
-        <anc>2 4 6 25</anc>
+        <anc>1 5 6 25</anc>
 </nb_cohort_life_stage>
 
 # c'est un age en année ??
@@ -215,15 +215,15 @@
 
  # je n'ai pas compris la signification
 <age_compute_habitat>
-  <anc>0  1  2  3  4  5  6  7  8  9 10 11 12 12 13 13 14 14 15 15 16 16 17 17 17 18 18 18 19 19 19 19 20 20 20 20 21 </anc>
+  <anc>0  1  2  3  4  5  6  7  8  9 10 11 12 12 13 13 14 14 15 15 16 16 17 17 17 18 18 18 19 19 19 19 2"0 20 20 20 21 </anc>
 </age_compute_habitat>
 
 <length>
-    <anc> 2.0 4.0 6.44 7.15 7.82 8.468 9.083 9.671 10.231 10.765 11.276 11.765 12.228 13.096 13.501 13.886 14.255 14.607 14.943 14.8 15.264 15.570 15.862 15.862 16.140 16.407 16.66 16.904 17.135 17.356 17.567 17.768 17.961 18.144 18.319 18.486 21.0 </anc>
+    <anc> 2 4 5.200582084001698 6.276046486321521 7.523445158560856 8.94414688252753 10.33945368375288 11.11060408723376 11.558776214390155 11.885090728982394 12.290613639354271 12.576358964009168 12.743291267184485 12.992328070764662 13.124342148563805 13.25163708714819 13.38582469622183 13.502634963466932 13.628179770618297 13.8456752594399 14.032714672755443 14.23668103899944 14.399236730914241 14.580938253653716 14.7031497129511 14.862187043052497 14.96083619768174 15.16941016690842 15.31428347859533 15.36115823986799 15.440299365636621 15.50220714010516 15.547193990745047 15.58559745499439 15.67773860839619 15.733922867454437 19.00 </anc>
 </length>
 
 <weight>
-    <anc>0.00034 0.00312 0.00973 0.01439 0.02008  0.02680  0.03452  0.04321  0.05280  0.06322  0.07442  0.08632 0.09884  0.11190  0.12544  0.13937  0.15362  0.16814  0.18285  0.19769  0.21261  0.22756 0.24249  0.25736 0.27213  0.28676  0.30122  0.31548 0.32953 0.34333 0.35686 0.37013 0.38310 0.39577 0.40813 0.42018 0.6318  </anc>
+    <anc> 0.02656604619126411 0.2714441577832225 0.6544787569163694 1.2291786682380863 2.257349176479273 4.0316549484694075 6.5551672113956645 8.343182879300791 9.526136489403822 10.458194998489406 11.703439568555856 12.640987763943217 13.212426525925256 14.098268802851377 14.584359210811101 15.064096682854446 15.581687110458555 16.042301293852596 16.54792224618691 17.45017006451197 18.253218417938072 19.158120650643266 19.901490191422482 20.756113253790833 21.345205981606412 22.12925111738651 22.62561398307936 23.70071131106952 24.468228215717804 24.720252122902846 25.149882778767747 25.489591350941918 25.738460258804714 25.95225458498747 26.47028716402917 26.789700926270704 40.42363750213662  </anc>
 </weight>
 
 
@@ -265,27 +265,27 @@
         <variable min="16.0" max="17.0" use="true"/>
 </b_sst_spawning>
 
-# comment déduire ces parametres
+
 <alpha_hsp_prey anc="3.5">
         <variable min="0.0" max="5.0" use="true"/>
 </alpha_hsp_prey>
-
+# Pas de certitudes
 <alpha_hsp_predator anc="2.30637293118113">
         <variable min="0.0" max="2.5" use="true"/>
 </alpha_hsp_predator>
 
-<beta_hsp_predator anc="3.534250459427564">
+<beta_hsp_predator anc="1.534250459427564">
 	<variable min="0.0" max="3.0" use="true"/>
 </beta_hsp_predator>
 <!--=== end of Spawning habitat parameters =====-->
 
 <!--===  3. Recruitment function   =============-->
-<nb_recruitment anc="0.04">
-	<variable min="0.005" max="0.25" use="true"/>
+<nb_recruitment anc="0.6">
+	<variable min="0.005" max="0.75" use="true"/>
 </nb_recruitment>
 
-<a_adults_spawning anc="2.5">
-	<variable min="0.005" max="3.5" use="true"/>
+<a_adults_spawning anc="1.0">
+	<variable min="0.00z5" max="3.5" use="true"/>
 </a_adults_spawning>
 <!--=== end of Recruitment function  ===========-->
 
@@ -306,15 +306,15 @@
 <!--=== end of Adult seasonal migrations =======-->
 
 <!--=== 6. Adult feeding habitat ===============-->
-<a_sst_habitat anc="0.5">
-        <variable min="0.4" max="1.5" use="true"/>
+<a_sst_habitat anc="1.5">
+        <variable min="0.4" max="2.0" use="true"/>
 </a_sst_habitat>
 
-<b_sst_habitat anc="12.325">
+<b_sst_habitat anc="13.325">
         <variable min="11.5" max="13.0" use="true"/>
 </b_sst_habitat>
 
-<T_age_size_slope anc="0.5">
+<T_age_size_slope anc="0.02">
         <variable min="0.0" max="3.0" use="true"/>
 </T_age_size_slope>
 
@@ -336,8 +336,8 @@
         <variable min="0.0001" max="0.1" use="true"/>
         </a_oxy_habitat>
 
-<b_oxy_habitat anc="3.764163854561827">
-        <variable min="1.0" max="4.0" use="true"/>
+<b_oxy_habitat anc="0.2">
+        <variable min="0.0" max="1.5" use="true"/>
         </b_oxy_habitat>
 
 <eF_habitat>
@@ -345,7 +345,7 @@
         <variable min="0.0" max="4.0" use="true"/>
     </epi>
 
-    <meso anc="1.00">
+    <meso anc="1.0">
         <variable min="0.0" max="4.0" use="false"/>
     </meso>
 
@@ -391,20 +391,20 @@
         <variable min="0.0" max="0.5" use="false"/>
 </Mp_mean_max>
 
-<Mp_mean_exp anc="0.06595823270638611">
-        <variable min="0.05" max="0.55" use="true"/>
+<Mp_mean_exp anc="0.9">
+        <variable min="0.35" max="0.95" use="true"/>
 </Mp_mean_exp>
 
-<Ms_mean_max anc="0.004521790396429624">
-        <variable min="0.0" max="0.01" use="true"/>
+<Ms_mean_max anc="0.3">
+        <variable min="0.05" max="0.5" use="true"/>
 </Ms_mean_max>
 
-<Ms_mean_slope anc="1.137368350830949">
-        <variable min="0.5" max="2.0" use="true"/>
+<Ms_mean_slope anc="0.01">
+        <variable min="0.003" max="0.3" use="true"/>
 </Ms_mean_slope>
 
-<M_mean_range anc="2.303236997791558e-07">
-        <variable min="0.0" max="2.0" use="true"/>
+<M_mean_range anc="0.6">
+        <variable min="0.05" max="1.0" use="true"/>
 </M_mean_range>
 <!--=== end of Mortality parameters   ===========-->
 
