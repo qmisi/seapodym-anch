@@ -206,7 +206,7 @@
 </nb_cohort_life_stage>
 
 # c'est un age en année ??
-<age_recruit anc="3"/>
+<age_recruit anc="7"/>
 <age_mature anc="11"/>
 
 <sp_unit_cohort>
@@ -387,15 +387,15 @@
 <!--=== end of Movement parameters    ==========-->
 
 <!--=== 8. Mortality parameters   ==============-->
-<Mp_mean_max anc="0.254521790396429624">
+<Mp_mean_max anc="0.3">
         <variable min="0.0" max="0.5" use="false"/>
 </Mp_mean_max>
 
-<Mp_mean_exp anc="0.9">
+<Mp_mean_exp anc="0.7">
         <variable min="0.35" max="0.95" use="true"/>
 </Mp_mean_exp>
 
-<Ms_mean_max anc="0.3">
+<Ms_mean_max anc="0.58">
         <variable min="0.05" max="0.5" use="true"/>
 </Ms_mean_max>
 
